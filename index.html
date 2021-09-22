@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FormTag</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <style>
+      *{padding: 0px; margin: 0px; box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;}
+      body
+      {
+          background-color: lightgrey;
+          display: flex;
+          flex-direction: column;
+     }
+     .main-container
+     {
+         display: inline-flex;
+         justify-content: center;
+         align-items: center;
+         margin-top: 70px;
+       
+     }
+      .container1
+      {
+          border: 2px solid black;
+          box-shadow: 10px;
+          width: 300px;
+          height: 350px;
+          border-radius: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          align-items: center;
+          margin: 40px;
+          background-color: white;
+      }
+      .container2
+      {
+          border: 2px solid black;
+          box-shadow: 10px;
+          width: 300px;
+          height: 350px;
+          border-radius: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          align-items: center;
+          margin: 40px;
+          background-color: white;
+      }
+      .container3
+      {
+          border: 2px solid black;
+          box-shadow: 10px;
+          width: 300px;
+          height: 350px;
+          border-radius: 10px;
+          box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+          align-items: center;
+          margin: 40px;
+          background-color: white;
+      }
+      .card-1-nav
+      { 
+         
+          border: 2px solid none;
+          background-color: red;
+          text-align: center;
+          padding: 10px;
+          height: 80px;
+     }
+     .card-2-nav
+      { 
+         
+          border: 2px solid none;
+          
+          text-align: center;
+          padding: 10px;
+          height: 80px;
+     }
+     .card-3-nav
+      { 
+         
+          border: 2px solid none;
+        
+          text-align: center;
+          padding: 10px;
+          height: 80px;
+     }
+      .social
+      {
+          /* border: 2px solid black; */
+          display: inline-flex;
+          margin-top: -30px;
+          padding-top: 20px;
+          padding-bottom: -10px;
+
+      }
+      .social i
+      {
+          padding: 10px;
+          margin: 10px;
+          font-size: 20px;
+      }
+      .formEle {
+          margin-left: -9px;
+          margin-bottom: 10px;
+         /* border: 2px solid red;  */
+         margin-top: 20px;
+        padding: 7px;
+         text-align: center;
+         width: 300px;
+         display: block;
+         }
+         input[type="email"],input[type="password"]
+         {
+           border: none;
+           outline: none;
+           border-bottom: 1px solid grey;
+           width: 95%;
+           margin-left: 0px;
+           margin-top: -100px
+        }
+        .ftpass
+        {
+            float: right;
+        }
+        input[type="submit"]
+        {
+            width: 80px;
+            height: 30px;
+           margin-left: -165px;
+           border-radius: 20px;
+           background-color: palevioletred;
+        }
+        .footer
+        {
+            background-color: grey;
+            height: 85px;
+            justify-content: center;
+            
+        }
+        .footer .social i
+        {
+           
+           font-size: 20px;
+           margin-left: 50px;
+           padding: 10px 0px;
+           margin-top: 25px;
+           font-size: 25px;
+           
+            
+        }
+        .footer2
+        {
+        
+            height: 85px;
+            justify-content: center;
+        }
+        .footer2 .social i
+        {
+           
+           font-size: 20px;
+           margin-left: 55px;
+           padding: 10px 0px;
+           margin-top: 20px;
+           font-size: 25px;
+        }
+    </style>
+  </head>
+  <body>
+     <h1 style="color: red; text-align: center;font-size: 100px;margin-top: 40px;">FORM TEMPLATE</h1>
+      <div class="main-container">
+    <div class="container1">
+        <div class="card-1-nav">
+            <div>
+            <h2>LOGIN</h2>
+            </div>
+            <div class="social">          
+                <a href="#" target="_blank" "><i class="fa fa-facebook-square"></i></a>
+                <a href="#" target="_blank" "><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
+                <a href="#" target="_blank" "><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </div>
+        </div>
+        <div>
+        <form action="./Welcome.html" method="GET" autocomplete="off" >
+            <div class="formEle">
+              <input type="email" name="fname" id="fname" placeholder="Enter Email" required />
+            </div class=>
+            <div class="formEle">
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or one of given special characters(@$#!&*%^)"
+                placeholder="Enter Pasdword"
+                required
+              />
+            </div>
+            <div>
+            <p style="margin-top: 0px; padding: 0px; margin-left: 150px;">Forgot Password?</p></div>
+            <div class="formEle"  style="display: inline-flex; margin-left: 160px;">
+              <input type="submit" value="LOGIN" style="background-color: grey; border-radius: 20px;" />
+              <p style="margin-left: 20px; font-size: 15px;">Don't have account? <a href="#">SignUp</a></p>
+            </div>
+          </form>
+        </div>
+    </div>
+
+    <div class="container2">
+        <div class="card-2-nav">
+            <div>
+            <h2>SIGN UP</h2>
+            </div>
+        </div>
+        <div style="margin-top: -25px;">
+        <form action="./SIGNUP.html" method="GET" autocomplete="off" >
+            <div class="formEle">
+              <input type="email" name="fname" id="fname" placeholder="Enter Email" required />
+            </div class=>
+            <div class="formEle">
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or one of given special characters(@$#!&*%^)"
+                placeholder="Enter Pasdword"
+                required
+              />
+            </div>
+            <div style="margin-left: 5px;">
+            <input type="checkbox" required />Accept the Terms and Conditions
+            </div>
+            <div class="formEle" style="display: inline-flex; margin-left: 170px;" >
+              <input type="submit" value="SIGNUP" />
+              <p style="margin-left: 20px;font-size: 15px;">Have an account? <a href="#">Sign In</a></p>
+            </div>
+            <div class="footer">
+                <div class="social">          
+                    <a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="card-3-nav">
+            <div>
+            <h2>SIGN IN</h2>
+            </div>
+        </div>
+        <div style="margin-top: -25px;">
+        <form action="./SIHNIN.html" method="GET" autocomplete="off" >
+            <div class="formEle">
+              <input type="email" name="fname" id="fname" placeholder="Enter Email" required />
+            </div class=>
+            <div class="formEle">
+              <input
+                type="password"
+                name="pass"
+                id="pass"
+                title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or one of given special characters(@$#!&*%^)"
+                placeholder="Enter Pasdword"
+                required
+              />
+            </div>
+            <div style="font-size: 15px;color: blue;">
+            <p style="margin-top: 0px; padding: 0px; margin-left: 150px;">Forgot Password?</p></div>
+            <div class="formEle">
+              <input type="submit" value="SIGN IN" style="width: 100%;margin-left: 7px; background-color: blue;" />
+             </div>
+             <p style="text-align: center;">or sign in with</p>
+            <div class="footer2">
+                <div class="social">          
+                    <a href="#" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                    <a href="#" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+                </div>
+            </div>
+          </form>
+        </div>
+    </div>
+</div>
+    <script>
+      function showPassword() {
+        var key = document.getElementById("pass");
+        if (key.type === "password") {
+          key.type = "text";
+        } else {
+          key.type = "password";
+        }
+      }
+    </script>
+  </body>
+</html>
